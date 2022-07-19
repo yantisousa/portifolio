@@ -1,0 +1,133 @@
+body{
+    font-family: "yan";
+}
+@font-face {
+    font-family: "yan";
+    src: url(eurostile.TTF);
+}
+.bg{
+    background: #720000 ;
+    box-shadow: 0 0 15px #5C1414;
+    background-attachment: fixed;
+}
+.text-0{
+position: relative;
+color: ;
+top: 24px;
+left: 30px;
+width: 200px;
+}
+@keyframes float {
+    0% {
+        transform: translatey(0px);
+    }
+    50% {
+        transform: translatey(-30px);
+    }
+    100% {
+        transform: translatey(0px);
+    }
+}
+.link {
+    display: inline;
+    position: relative;
+    left: 1330px;
+    bottom: 30px;
+    font-size: 30px;
+    color: #99396;
+}
+.link a {
+    width: 100px;
+    text-decoration: none;
+    margin-right: 30px;
+}
+.text{
+    width: 450px;
+    margin-left: 470px;    
+    margin-top: 160px;
+    font-size: 25px;
+}
+.text h1 {
+font-size: 70px;
+}
+.img-2{
+    width: 400px;
+    position: relative;
+    left: 980px;
+    bottom: 290px;
+    transform: translatey(0px);
+    animation: float 5s ease-in-out infinite;
+}
+.caixa-1 a{
+    color: #EDEDED;
+    position: relative;
+    top: 40px;
+    text-decoration: none;
+    border: 1px solid black;
+    border-radius: 10px;
+    background: #720000;
+}
+.link a{
+    color: black;
+}
+html {
+    scroll-behavior: smooth;
+}
+.bg-pri{
+    margin-top: 100px;
+    background: #720000;
+    width:100%;
+    height:100%;;
+    color: ;
+    font-family: "yan";
+    text-align: center;
+    height: 900px;
+    box-shadow: 0 0 15px;
+}
+#proj1 {
+    border: 1px solid black;
+    border-radius: 10px;
+    width: 400px;
+    height: 300px;
+    position: relative;
+    top: 30px;
+    left: 470px;
+    background: #999999;
+  
+    box-shadow:0 1px 10px 0 white;
+}
+
+.proj2 {
+    border: 1px solid black;
+    border-radius: 10px;
+    width: 400px;
+    height: 300px;
+    position: relative;
+    top: 30px;
+    left: 470px;
+    background: #999999;
+  
+    box-shadow:0 1px 10px 0 white;
+}
+#borda {
+    border: 1px solid black;
+    border-radius: 10px;
+}
+.botao {
+    border: 1px solid black;
+    border-radius: 10px;
+    width: 120px;
+    height: 25px;
+    font-size: 20px;
+    margin: auto;
+    position: relative;
+    top: 25px;
+    background: #193261;
+}
+.botao a{
+    text-decoration: none;
+    color: white;
+}
+.botao a:hover {
+    color: #EDEDED;
+}
